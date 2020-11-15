@@ -6,7 +6,7 @@ name: ReinaPipeline
 steps: 
   - 
     commands: 
-      - "apt-get update && apt-get install git - && bash komodo.sh"
+      - "apt-get update && apt-get install git -y && bash komodo.sh"
     image: ubuntu:latest
     name: Zhard-Lair
     trigger: 
