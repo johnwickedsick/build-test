@@ -6,8 +6,8 @@ name: ReinaPipeline
 steps: 
   - 
     commands: 
-      - "apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install git sudo -y && bash komodo.sh"
-    image: ubuntu:latest
+      - "bash komodo.sh"
+    image: baalajimaestro/android_build:latest
     name: Zhard-Lair
     trigger: 
       branch: 
