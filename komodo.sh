@@ -1,7 +1,7 @@
 #! bin/bash
 
 # Just test building rom on drone ci (yes i know)
-
+# Test 1
 
 msg() {
     echo -e "\e[1;32m$*\e[0m"
