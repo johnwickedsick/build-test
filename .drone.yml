@@ -6,7 +6,7 @@ name: ReinaPipeline
 steps: 
   - 
     commands: 
-      - "apt-get update && apt-get install git && curl -o build.sh https://raw.githubusercontent.com/johnwickedsick/build-test/main/komodo.sh && bash build.sh"
+      - "apt-get update && apt-get install curl -y && curl -o build.sh https://raw.githubusercontent.com/johnwickedsick/build-test/main/komodo.sh && bash build.sh"
     image: ubuntu:latest
     name: Zhard-Lair
     trigger: 
