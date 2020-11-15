@@ -1,4 +1,4 @@
-#! bin/bash
+#! /bin/bash
 
 # Just test building rom on drone ci (yes i know)
 
